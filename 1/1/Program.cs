@@ -64,9 +64,16 @@ namespace _1
             {
                 z = z - 1;
                 goto Ram;
-            }
+                
+            }Console.Write(z);
+            Xam:
+             z = z - 1;
             Console.WriteLine(z);
-            Console.ReadLine();
+             if (z > 0)
+             {
+                 goto Xam;
+             }
+             Console.ReadKey();
         }
     }
 }
