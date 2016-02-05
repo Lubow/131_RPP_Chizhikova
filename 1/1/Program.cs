@@ -59,6 +59,8 @@ namespace _1
                 Console.WriteLine("z - не делиться на 20");
 
             }
+            z = z - 1;
+            Console.WriteLine(z);
             Console.ReadLine();
         }
     }
