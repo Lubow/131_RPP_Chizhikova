@@ -65,7 +65,7 @@ namespace _1
                 z = z - 1;
                 goto Ram;
                 
-            }Console.Write(z);
+            }Console.WriteLine(z);
             Xam:
              z = z - 1;
             Console.WriteLine(z);
@@ -73,6 +73,19 @@ namespace _1
              {
                  goto Xam;
              }
+            while (z>0)
+            {
+                z = z - 1;
+              
+            }  
+            Console.WriteLine(z);
+            do
+            {
+                z = z - 1;
+
+            }
+            while (z > 0);
+
              Console.ReadKey();
         }
     }
