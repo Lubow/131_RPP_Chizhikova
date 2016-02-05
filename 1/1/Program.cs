@@ -59,7 +59,12 @@ namespace _1
                 Console.WriteLine("z - не делиться на 20");
 
             }
-            z = z - 1;
+            Ram:
+            if (z > 0)
+            {
+                z = z - 1;
+                goto Ram;
+            }
             Console.WriteLine(z);
             Console.ReadLine();
         }
